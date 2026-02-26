@@ -36,12 +36,16 @@
   "license": "MIT Non-Commercial",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "src/img/icon"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "Discord Raider"
+            "name": "DiscordRaider",
+            "setupIcon": "src/img/icon.ico",
+            "iconUrl": "file:///D:/DBots/Raider/src/img/icon.ico"
           }
         },
         {
